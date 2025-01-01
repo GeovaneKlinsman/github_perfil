@@ -1,0 +1,36 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 50px; 
+}
+
+.listStats {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid var(--corSecundaria);
+}
+
+.ItemName b, .ItemLanguage b{
+    margin-right: 8px;
+}
+
+.ItemName, .ItemLanguage {
+    color: var(--corPrincipal);
+}
+
+.ItemLink{
+    display: block;
+    background-color: var(--corSecundaria2);
+    color: var(--corTexto1);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    text-decoration: none;
+}

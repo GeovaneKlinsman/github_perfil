@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Variáveis no css */
+
+:root {
+    --corPrincipal: #1289A7;
+    --corSecundaria: #C4E538;
+    --corSecundaria2: #ED4C67;
+    --corTexto1: white;
+}
